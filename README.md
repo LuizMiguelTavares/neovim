@@ -62,3 +62,4 @@ It appears automatically! But you can force it throug <leader>+l.
 
 Github:
 press <leader>+h(hunk) to see options to use some fiature of the github
+The <leader>+lg enters the lazy git. Any doubts about lazygit is just press "?" in the tab you want and then search the command.

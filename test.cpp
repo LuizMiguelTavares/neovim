@@ -1,8 +1,10 @@
 #include <iostream>
 
-int main(){
+int main() {
   std::cout << "Oi" << std::endl;
   int test = 2;
-
-  return 0;
+  for (int i = 0; i < 20; i++) {
+    test += 3;
   }
+  return 0;
+}

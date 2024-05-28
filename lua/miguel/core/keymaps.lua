@@ -1,9 +1,9 @@
 vim.g.mapleader = " "
-
+vim.g.maplocalleader = ","
 local keymap = vim.keymap
 
-keymap.set("n", "<leader>+", "<C-a>", {desc = "Increment number" })
-keymap.set("n", "<leader>-", "<C-x>", {desc = "Decrement number" })
+keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" })
+keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" })
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
